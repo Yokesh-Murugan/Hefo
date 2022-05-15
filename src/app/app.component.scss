@@ -1,7 +1,22 @@
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  .avatar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+  }
+  .profile{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   font-weight: bold;
+   padding-right: 150px;
+   overflow: hidden;
+  }
 }
-
 ion-menu.md ion-content {
   --padding-start: 8px;
   --padding-end: 8px;
