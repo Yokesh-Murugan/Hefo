@@ -10,12 +10,11 @@
 <ion-content>
   <ion-card *ngFor="let d of dishCards">
     <ion-card-header color="success">
-      <ion-card-title>{{ d.title }}</ion-card-title>
+      <ion-card-title style="text-align: center; font-weight: bold; font-size: 30px;">{{ d.title }}</ion-card-title>
     </ion-card-header>
-    <div style="background-image:linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)), url('../assets/breakfast.jpg'); background-size: cover; font-weight: bold; color: white;">  
+    <ion-img src="../assets/breakfast.jpg" ></ion-img>
     <ion-card-content>
-      {{ d.description }}
+      <div style="font-size: 20px; color: white; ">{{ d.description }}</div>
     </ion-card-content>
-  </div>
   </ion-card>
 </ion-content>

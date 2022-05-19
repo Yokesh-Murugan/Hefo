@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
   public dishCards = [
-    { title: 'BreakFast',
+    { title: 'Breakfast',
       description: ' The first meal of the day, usually eaten in the morning. You should put more protein in her breakfast so she will grow. (by extension) A meal consisting of food normally eaten in the morning, which may typically include eggs, sausages, toast, bacon, etc. We serve breakfast all day. A meal after fasting, or food in general.',
       image: '../assets/breakfast.jpg'
     },
