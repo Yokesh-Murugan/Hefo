@@ -10,7 +10,8 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },  {
+  },
+  {
     path: 'recipes',
     loadChildren: () => import('./recipes/recipes.module').then( m => m.RecipesPageModule)
   },
@@ -26,10 +27,6 @@ const routes: Routes = [
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
-  {
-    path: 'breakfast',
-    loadChildren: () => import('./breakfast/breakfast.module').then( m => m.BreakfastPageModule)
-  }
 
 ];
 

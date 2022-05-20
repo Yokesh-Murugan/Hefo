@@ -1,15 +1,15 @@
-<ion-app>
+<ion-app slot="start">
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
           <div class="avatar">
-            <ion-icon style="width: 30px; height: 30px;" name="person-circle-outline" color="success"></ion-icon>
+            <ion-icon name="person-circle-outline"></ion-icon>
             <div class="profile">
             <ion-list-header>Profile</ion-list-header>
           </div>
         </div>    
-          <ion-note style="color: #2dd36f;">profile@gmail.com</ion-note>
+          <ion-note>profile@gmail.com</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = home">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">

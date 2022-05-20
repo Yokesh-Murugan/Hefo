@@ -3,18 +3,17 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title color="success">Home</ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <ion-card *ngFor="let d of dishCards">
     <ion-card-header color="success">
-      <ion-card-title style="text-align: center; font-weight: bold; font-size: 30px;">{{ d.title }}</ion-card-title>
+      <ion-card-title>{{ d.title }}</ion-card-title>
     </ion-card-header>
-    <img src="[p.url]" alt="">
+    <ion-img [src]="[d.url]"></ion-img>
     <ion-card-content>
-      <div style="font-size: 20px; color: white; ">{{ d.description }}</div>
+      {{ d.description }}
     </ion-card-content>
   </ion-card>
 </ion-content>
