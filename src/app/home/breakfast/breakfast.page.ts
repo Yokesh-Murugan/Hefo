@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-recipes',
-  templateUrl: './recipes.page.html',
-  styleUrls: ['./recipes.page.scss'],
+  selector: 'app-breakfast',
+  templateUrl: './breakfast.page.html',
+  styleUrls: ['./breakfast.page.scss'],
 })
-export class RecipesPage implements OnInit {
-
+export class BreakfastPage implements OnInit {
 
   public dishCards = [
     { title: 'Rava Idli With Coconut Chatney',
@@ -30,6 +29,7 @@ export class RecipesPage implements OnInit {
       url: 'juice'
     },
   ]
+
   constructor() { }
 
   ngOnInit() {
