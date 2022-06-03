@@ -11,23 +11,23 @@ export class RecipesPage implements OnInit {
   public dishCards = [
     { title: 'Rava Idli With Coconut Chatney',
       image: 'assets/ravaidli.jpg',
-      url: 'breakfast'
+      url: 'ravaidli'
     },
     { title: 'Masala Dosa With Peanut Chatney',
       image: 'assets/masaladosa.jpg',
-      url: 'lunch'
+      url: 'masaladosa'
     },
     { title: 'Rava Utthapam',
       image: 'assets/ravauttapam.webp',
-      url: 'dinner'
+      url: 'ravautthapam'
     },
     { title: 'Adai',
       image: 'assets/adaidosa.jpg',
-      url: 'snacks'
+      url: 'adai'
     },
     { title: 'Semiya Upma',
       image: 'assets/semiyaupma.png',
-      url: 'juice'
+      url: 'semiyaupma'
     },
   ]
   constructor() { }
