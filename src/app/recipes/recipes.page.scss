@@ -4,9 +4,18 @@ ion-title{
     min-height: 18px;
     font-family: 'Times New Roman';
    }
-   ion-card{
-       border-radius: 10px;
-       box-shadow: 3px 3px #888888;
-       border: 2px solid #2dd36f;
-       display: flex;
+   ion-card-title{
+       font-size: smaller;
    }
+   ion-img{
+       height: 100px;
+       width: 150px;
+   }
+ion-card{
+    width: 115px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #888888;
+    border: 2px solid #2dd36f;
+    display: flex;
+    float: left;
+}

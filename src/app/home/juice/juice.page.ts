@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JuicePage implements OnInit {
 
+  public dishCards = [
+    { title: 'Apple Juice',
+      image: 'assets/apple.jpg',
+      url: 'apple'
+    },  
+  ]
+
+
   constructor() { }
 
   ngOnInit() {

@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>lunch</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Juice</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-card *ngFor="let d of dishCards" [routerLink]="[d.url]">
+    <ion-img [src]="[d.image]"></ion-img>
+    <ion-card-header color="success">
+      <ion-card-title>{{ d.title }}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
 </ion-content>

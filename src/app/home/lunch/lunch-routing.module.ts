@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: LunchPage
+  },
+  {
+    path: 'chickenbriyani',
+    loadChildren: () => import('./chickenbriyani/chickenbriyani.module').then( m => m.ChickenbriyaniPageModule)
   }
 ];
 

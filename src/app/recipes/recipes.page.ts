@@ -7,29 +7,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipesPage implements OnInit {
 
-
   public dishCards = [
-    { title: 'Rava Idli With Coconut Chatney',
+    { title: 'Rava Idli',
       image: 'assets/ravaidli.jpg',
-      url: 'ravaidli'
+      url: '/home/breakfast/ravaidli'
     },
-    { title: 'Masala Dosa With Peanut Chatney',
+    { title: 'Masala Dosa',
       image: 'assets/masaladosa.jpg',
-      url: 'masaladosa'
+      url: '/home/breakfast/masaladosa'
     },
     { title: 'Rava Utthapam',
       image: 'assets/ravauttapam.webp',
-      url: 'ravautthapam'
+      url: '/home/breakfast/ravautthapam'
     },
     { title: 'Adai',
       image: 'assets/adaidosa.jpg',
-      url: 'adai'
+      url: '/home/breakfast/adai'
     },
     { title: 'Semiya Upma',
-      image: 'assets/semiyaupma.png',
-      url: 'semiyaupma'
+      image: 'assets/semiyaupma.webp',
+      url: '/home/breakfast/semiyaupma'
     },
+    { title: 'Apple Juice',
+      image: 'assets/apple.jpg',
+      url: 'apple'
+    },
+    { title: 'Chicken Briyani',
+    image: 'assets/briyani.jfif',
+    url: 'chickenbriyani'
+  },
   ]
+
   constructor() { }
 
   ngOnInit() {

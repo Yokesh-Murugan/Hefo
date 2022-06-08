@@ -1,16 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { JuicePage } from './juice.page';
+import { ChickenbriyaniPage } from './chickenbriyani.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: JuicePage
-  },
-  {
-    path: 'apple',
-    loadChildren: () => import('./apple/apple.module').then( m => m.ApplePageModule)
+    component: ChickenbriyaniPage
   }
 ];
 
@@ -18,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class JuicePageRoutingModule {}
+export class ChickenbriyaniPageRoutingModule {}

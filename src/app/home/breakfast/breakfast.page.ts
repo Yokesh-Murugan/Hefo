@@ -20,12 +20,12 @@ export class BreakfastPage implements OnInit {
       image: 'assets/ravauttapam.webp',
       url: 'ravautthapam'
     },
-    { title: 'Adai',
+    { title: 'Adai Dosa',
       image: 'assets/adaidosa.jpg',
       url: 'adai'
     },
     { title: 'Semiya Upma',
-      image: 'assets/semiyaupma.png',
+      image: 'assets/semiyaupma.webp',
       url: 'semiyaupma'
     },
   ]
