@@ -30,11 +30,11 @@ export class RecipesPage implements OnInit {
     },
     { title: 'Apple Juice',
       image: 'assets/apple.jpg',
-      url: 'apple'
+      url: '/home/juice/apple'
     },
     { title: 'Chicken Briyani',
     image: 'assets/briyani.jfif',
-    url: 'chickenbriyani'
+    url: '/home/lunch/chickenbriyani'
   },
   ]
 

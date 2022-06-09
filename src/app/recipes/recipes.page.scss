@@ -8,14 +8,17 @@ ion-title{
        font-size: smaller;
    }
    ion-img{
-       height: 100px;
-       width: 150px;
-   }
+    height: 100px;
+    width: 150px;
+}
 ion-card{
     width: 115px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 3px 3px #888888;
     border: 2px solid #2dd36f;
     display: flex;
+    padding: auto;
+    position: relative;
     float: left;
 }
