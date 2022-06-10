@@ -36,6 +36,14 @@ export class RecipesPage implements OnInit {
     image: 'assets/briyani.jfif',
     url: '/home/lunch/chickenbriyani'
   },
+  { title: 'Ellu Barpi',
+      image: 'assets/ellubarpi.webp',
+      url: '/home/snacks/ellubarpi'
+    }, 
+    { title: 'Naan With Panneer Tikka',
+    image: 'assets/naanpanner.jpg',
+    url: '/home/dinner/naanpanner'
+  },
   ]
 
   constructor() { }

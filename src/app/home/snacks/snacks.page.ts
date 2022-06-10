@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./snacks.page.scss'],
 })
 export class SnacksPage implements OnInit {
+  public dishCards = [
+    { title: 'Ellu Barpi',
+      image: 'assets/ellubarpi.jpeg',
+      url: 'ellubarpi'
+    },  
+  ]
+
 
   constructor() { }
 

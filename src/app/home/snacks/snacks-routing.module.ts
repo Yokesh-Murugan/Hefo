@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: SnacksPage
+  },
+  {
+    path: 'ellubarpi',
+    loadChildren: () => import('./ellubarpi/ellubarpi.module').then( m => m.EllubarpiPageModule)
   }
 ];
 

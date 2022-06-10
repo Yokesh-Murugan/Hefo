@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DinnerPage implements OnInit {
 
+  public dishCards = [
+    { title: 'Naan With Panneer Tikka',
+      image: 'assets/naanpanner.jpg',
+      url: 'naanpanner'
+    },    
+  ]
+
   constructor() { }
 
   ngOnInit() {
