@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocalNotifications,ILocalNotification }  from "@ionic-native/local-notifications/ngx";
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+ 
   public dishCards = [
     { title: 'Breakfast',
       description: ' The first meal of the day, usually eaten in the morning. You should put more protein in your breakfast so you will grow. A meal consisting of food normally eaten in the morning, which may typically include eggs, sausages, toast, bacon, etc. We serve breakfast all day. A meal after fasting, or food in general.',
@@ -37,10 +39,25 @@ export class HomePage implements OnInit {
     
   ]
 
-  constructor() { }
+  constructor(private local:LocalNotifications) 
+  {
 
-  ngOnInit() {
-   
+  }
+  showNotification()
+  {
+      let options:ILocalNotification={
+        text:"demo of local notification",
+        title:"local notification",
+        trigger:{at:new Date(new Date().getTime()+3000)
+        }
+        
+      }
+      this.local.schedule(options);
+  }
+
+  ngOnInit()
+  {
+    this.showNotification();
   }
 
 }

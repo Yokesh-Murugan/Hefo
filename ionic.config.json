@@ -1,7 +1,8 @@
 {
   "name": "Hefo -app",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

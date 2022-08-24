@@ -14,7 +14,7 @@ a {
     color: lightgreen;
     margin: 0 -.25rem;
     padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .3s box-shadow .3s ease-in-out;
   }
   a:hover {
     box-shadow: inset 150px 0 0 0 lightgreen;
